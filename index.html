@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Construction LLC</title>
+    <!-- Link CSS or externial API here in the head tag-->
+    <script src="../script.js"></script>
+    <!-- External Styling-->
+     <link rel="stylesheet" href="./css/style-tutorial.css">
+  </head>
+  <body>
+    <header>
+      <div>
+    <h1 id="primary-heading" class="heading-group"> This is the Title</h1>
+    <h2> This is my subtitle</h2>
+  </div>
+  <!-- Navigation menu -->
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#menu-item-about">About</a></li>
+      <li><a href="./html/semantic-html-example.html">Products</a></li>
+      <li>Contact</li>
+    </ul>
+  
+  </nav>
+
+
+
+
+
+    </header>
+
+
+
+
+
+    <main>
+    <!-- practice web wireframing -->
+    <section class="new-events">
+      <div class="section-title">
+        <h3 class="section-title">News Events</h3>
+        </div>
+        <div class="media-wrapper">
+          <div class="news-container">
+            <div class="news-media">
+            <img src="assets/img/pic.jpg" alt="Here is a picture of hello world ">
+          </div>
+          <div class="news-text">
+            <a href="http://www.google.com">Click here to learn more</a>
+          </div>
+
+        <div class="news-container">
+          <div class="news-media">
+            <img src="assets/img/pic.jpg" alt="Here is a picture of hello world ">
+          </div>
+          <div class="news-text">
+            <a href="http://www.google.com">Click here to learn more</a>
+          </div>
+          
+          
+        </div>
+        <div class="news-container"></div>
+          <div class="news-media"></div>
+            <img src="assets/img/pic.jpg" alt="Here is a picture of hello world ">
+          </div>
+          <div class="news-text">
+            <a href="http://www.google.com">Click here to learn more</a>
+          
+        </div>
+        <div class="news-container"></div>
+           <div class="news-media"></div>
+            <img src="assets/img/pic.jpg" alt="Here is a picture of hello world ">
+          </div>
+          <div class="news-text">
+            <a href="http://www.google.com">Click here to learn more</a>
+        </div>
+
+
+    </section>
+
+
+
+      </div class="container-element">
+    <h3> Overview</h3>
+    <span> This is a statement inside an inline tag</span>
+    <span> This is a 2nd statement inside an inline tag</span>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perferendis quidem ipsum eveniet dolorem iusto, velit illum reiciendis? Obcaecati illo magnam quasi incidunt. Quasi temporibus officia atque perferendis minima? Ab!
+  </p>
+    <img src="assets/img/pic.jpg" alt="Here is a picture of hello world ">
+    </div>
+    <!-- Ordered List-->
+     <br><hr>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+    <!-- Line break-->
+  <hr><br>
+    <!-- About menu item should navigate to this Unordered List-->
+  <ul id="menu-item-about">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ul>
+
+
+    <hr>
+        <br>
+
+        <!-- multimedia files audio and video-->
+         <audio src=""></audio>
+
+         <video src="./assets/video/file_example_MOV_1280_1_4MB.mov" 
+         width="320" 
+         height="240"
+         controls
+         >
+          Your browser does not support the video tag.
+        </video>
+        <table>
+         <thead>
+          <tr>
+            <th>First</th>
+            <th>Last</th>
+            <th>GPA</th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+            <td>John</td>
+            <td>Wick</td>
+            <td>3.33</td>
+          </tr>
+          <tr>
+            <td>Jane</td>
+            <td>Doe</td>
+            <td>1.22</td>
+          </tr>
+         </tbody>
+         <tfoot>
+          <tr>
+            <td>GPA AVG</td>
+            <td></td>
+            <td>3.84</td>
+          </tr>
+         </tfoot>
+        </table>
+
+        <!--IMPORTANT section-->
+        <!-- Getting input from users!!!!!!!!!!!!!-->
+        <!-- HTML FORMS > input fields that can be used for different types of input-->
+
+        <!-- Form elem-->
+
+        <form action="#" method="get"></form>
+        <!-- fields to take input-->
+         <label for="user-email">Enter your Email:</label>
+         <input placeholder= "abc@gmail.com" type="email" name="user-email" id="user-email" />
+         <br>
+         <label for="user-password">Enter your Password:</label>
+         <input type="password" name="user-password" id="user-password" />
+         <br>      
+         <label for="user-phone">Click for cookie</label>
+         <input type="checkbox" name="user-agreement" id="user-agreement" />
+         <br>
+         <button type="submit">Submit</button>
+         <button type="reset">Reset</button>
+      </form>
+
+      <section class="input tutorials">
+      <!-- Tutorial for radio buttons
+       present multiple options select only one
+       The name attribute for all radio options are the same
+       value and id is different-->
+       <p> Select your favorite pet...</p>
+       <input type="radio" name="pet" id="Dogs" value="Dogs">
+       <label for="Dogs">Dogs</label><br>
+       <input type="radio" name="pet" id="Cats" value="Cats">
+       <label for="Cats">Cats</label><br>
+       <input type="radio" name="pet" id="Fish" value="Fish">
+       <label for="Fish">Fish</label><br>
+       <!--Present multiple options, user can select multiple options
+       the name attributes for all checkbox options are different along with 
+       value and id is also different-->
+
+       <p> Select more than one program ...</p>
+       <input type="checkbox" name="Python" id="Python" value="Python">
+       <label for="Python">Python</label><br>
+       <input type="checkbox" name="Java" id="Java" value="Java">
+       <label for="Java">Java</label><br>
+       <input type="checkbox" name="JS" id="JS" value="JS">
+       <label for="JS">JS</label><br>
+       <hr><br>
+       <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis cupiditate cum sunt voluptate, necessitatibus totam quam illum reprehenderit quaerat modi itaque tempore ipsum nobis quia officia sint excepturi iste voluptatem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, voluptatum tempore sed quasi provident tenetur! Totam deleniti expedita dolore sed dolorem corporis. Assumenda iste illum eligendi sapiente ea, optio veniam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero fugiat non enim mollitia, odit optio at laboriosam voluptates esse fugit hic animi, repellendus porro minus, cumque labore! Ab, et repellendus.
+       </div>
+       <hr><br>
+       <!-- the select from multiple option input type
+        select and option-->
+       <label for="states">Choose your midwest state:</label>
+       <select name="states" id="states">
+        <option value="#">Select a State</option>
+        <option value="MI">Michigan</option>
+        <option value="OH">Ohio</option>
+        <option value="IN">Indiana</option>
+        <option value="IL">Illinois</option>
+        </select>
+
+      </section>
+      
+
+    </main>
+    <footer>
+      <hr><br>
+    <a href="mailto:info@happyconstruction.com">Email Us</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+/*
+This is the CSS file for the index page.
+
+Syntax for general CSS properties:
+
+*/
+body {
+  background-color: rgb(223, 182, 182);
+}
+
+#primary-heading {
+  color: rgb(255, 0, 166);
+  border: 10px solid rgb(123, 0, 255);
+    padding: 10px;
+    margin: 10px;
+}
+.heading-group {
+  font-family: "Times New Roman", Times, serif;
+  
+}
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    padding: 0;
+    margin: 0;
+}
